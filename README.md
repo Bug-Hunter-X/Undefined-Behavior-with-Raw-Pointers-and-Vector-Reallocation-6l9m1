@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with raw pointers and vectors in Rust. Modifying a vector through a raw pointer after reallocation leads to undefined behavior.  The solution demonstrates a safer approach using vector indexing or iterators.
